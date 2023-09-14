@@ -1,0 +1,140 @@
+# File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode
+
+# Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
+
+*.svg
+*.map
+*.less
+*.yml
+*.json
+MaquetacionWeb/css/bootstrap-grid.css
+MaquetacionWeb/css/bootstrap-grid.min.css
+MaquetacionWeb/css/bootstrap-grid.rtl.css
+MaquetacionWeb/css/bootstrap-grid.rtl.min.css
+MaquetacionWeb/css/bootstrap-reboot.css
+MaquetacionWeb/css/bootstrap-reboot.min.css
+MaquetacionWeb/css/bootstrap-reboot.rtl.css
+MaquetacionWeb/css/bootstrap-reboot.rtl.min.css
+MaquetacionWeb/css/bootstrap-utilities.css
+MaquetacionWeb/css/bootstrap-utilities.min.css
+MaquetacionWeb/css/bootstrap-utilities.rtl.css
+MaquetacionWeb/css/bootstrap-utilities.rtl.min.css
+MaquetacionWeb/css/bootstrap.css
+MaquetacionWeb/css/bootstrap.min.css
+MaquetacionWeb/css/bootstrap.rtl.css
+MaquetacionWeb/css/bootstrap.rtl.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/all.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/all.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/brands.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/brands.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/fontawesome.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/fontawesome.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/regular.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/regular.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/solid.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/solid.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/svg-with-js.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/svg-with-js.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/v4-font-face.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/v4-font-face.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/v4-shims.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/v4-shims.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/v5-font-face.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/css/v5-font-face.min.css
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/all.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/all.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/brands.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/brands.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/conflict-detection.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/conflict-detection.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/fontawesome.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/fontawesome.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/regular.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/regular.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/solid.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/solid.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/v4-shims.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/js/v4-shims.min.js
+MaquetacionWeb/fontawesome-free-6.4.2-web/LICENSE.txt
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_animated.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_bordered-pulled.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_core.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_fixed-width.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_functions.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_icons.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_list.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_mixins.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_rotated-flipped.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_screen-reader.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_shims.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_sizing.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_stacked.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/_variables.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/brands.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/fontawesome.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/regular.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/solid.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/scss/v4-shims.scss
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-brands-400.ttf
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-brands-400.woff2
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-regular-400.ttf
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-regular-400.woff2
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-solid-900.ttf
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-solid-900.woff2
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-v4compatibility.ttf
+MaquetacionWeb/fontawesome-free-6.4.2-web/webfonts/fa-v4compatibility.woff2
+MaquetacionWeb/javascript/bootstrap.bundle.js
+MaquetacionWeb/javascript/bootstrap.bundle.min.js
+MaquetacionWeb/javascript/bootstrap.esm.js
+MaquetacionWeb/javascript/bootstrap.esm.min.js
+MaquetacionWeb/javascript/bootstrap.js
+MaquetacionWeb/javascript/bootstrap.min.js

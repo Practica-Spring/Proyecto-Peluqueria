@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/registerstyle.css" />
+</head>
+
+<body class="grid-container">
+    <header class="header">
+        <h2>Registrarse</h2>
+    </header>
+    <article class="main">
+        <h5>Rellenar Datos</h5>
+        <form>
+            <ul id="listaDatos">
+                <li>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" required />
+                </li>
+                <li>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido" required />
+                </li>
+                <li>
+                    <label for="domicilio">Domicilio</label>
+                    <input type="text" name="domicilio" id="domicilio" required />
+                </li>
+                <li>
+                    <label for="correo">Correo</label>
+                    <input type="email" name="correo" id="correo" required />
+                </li>
+                <li>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" name="telefono" id="telefono" required />
+                </li>
+            </ul>
+        </form>
+    </article>
+    <footer class="footer">
+        <ul id="botones">
+            <li>
+                <a href="../index.html">Cancelar</a>
+            </li>
+            <li>
+                <a href="../index.html">Crear Cuenta</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>

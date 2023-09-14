@@ -26,23 +26,18 @@ h5 {
 
 .header {
     grid-area: header;
-    background-color: rgb(252, 84, 255);
+    background-color: rgb(247, 22, 198);
     text-align: center;
-}
-
-.sidebar {
-    grid-area: sidebar;
-    background-color: rgb(238, 151, 255);
 }
 
 .main {
     grid-area: main;
-    background-color: rgb(238, 194, 238);
+    background-color: rgb(224, 168, 224);
 }
 
 .footer {
     grid-area: footer;
-    background-color: rgb(79, 47, 77);
+    background-color: rgb(79, 47, 71);
 }
 
 /* acomodando elementos con la propiedad grid-template-areas*/
@@ -52,7 +47,6 @@ h5 {
     grid-template-areas:
         "header"
         "main"
-        "sidebar"
         "footer";
     align-items: stretch;
 }
@@ -61,45 +55,10 @@ h5 {
     .grid-container {
         grid-template:
             "header header header" 50px
-            /* dando un alto */
-            "sidebar main main" auto
-            "footer footer footer" 50px /
+            ". main ." auto
+            ". footer ." 50px /
             200px auto;
-        /* y un ancho */
     }
-}
-
-#infoContacto {
-    list-style-type: none;
-    /* tipo de lista desactivado */
-}
-
-#infoContacto li {
-    border: 1px solid grey;
-    padding: 5px;
-    /* espaciado entre los elementos y su contenido */
-    margin: 1px;
-    /* espaciado entre cada elemento */
-    border-radius: 3px;
-}
-
-table {
-    border: 1px solid grey;
-    width: 100%;
-    border-radius: 3px;
-    border-collapse: collapse;
-}
-
-thead {
-    padding: 5px;
-    border-radius: 3px;
-}
-
-td {
-    border: 1px solid grey;
-    padding: 3px;
-    text-align: center;
-    border-radius: 3px;
 }
 
 #botones {
@@ -112,10 +71,10 @@ td {
 }
 
 #botones a {
-    background: rgb(168, 198, 224);
+    background: rgb(224, 168, 224);
     color: #000000;
     border-radius: 5px;
-    border-style: solid 1px #000000;
+    border-style: solid #000000;
     padding: 8px 25px;
     white-space: nowrap;
     transition: 0.3s;
@@ -124,6 +83,33 @@ td {
 }
 
 #botones a:hover {
-    background: rgb(180, 21, 132);
+    background: rgb(180, 21, 180);
     color: rgb(168, 198, 224);
+}
+
+#listaDatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+    /* tipo de lista desactivado */
+
+}
+
+#listaDatos li {
+    border: 1px solid rgb(128, 128, 128);
+    padding: 5px;
+    /* espaciado entre los elementos y su contenido */
+    margin: 1px;
+    /* espaciado entre cada elemento */
+    border-radius: 3px;
+}
+
+#listaDatos li label {
+    width: 50%;
+}
+
+#listaDatos li input {
+    width: 50%;
 }
