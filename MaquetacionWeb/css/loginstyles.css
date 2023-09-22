@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
     padding: 0;
 }
@@ -32,12 +32,16 @@ h5 {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: rgb(238, 151, 255);
+    background-color: rgb(205, 55, 235);
+
 }
 
 .main {
     grid-area: main;
     background-color: rgb(238, 194, 238);
+    background-image: url("../img/fondo.png");
+    background-size: contain;
+    background-repeat: repeat-y;
 }
 
 .footer {
@@ -51,8 +55,8 @@ h5 {
     gap: 10px;
     grid-template-areas:
         "header"
-        "main"
         "sidebar"
+        "main"
         "footer";
     align-items: stretch;
 }
@@ -60,11 +64,11 @@ h5 {
 @media (min-width: 600px) {
     .grid-container {
         grid-template:
-            "header header header" 50px
+            "header main main" 70px
             /* dando un alto */
             "sidebar main main" auto
-            "footer footer footer" 50px /
-            200px auto;
+            "footer main main" 70px /
+            400px auto;
         /* y un ancho */
     }
 }

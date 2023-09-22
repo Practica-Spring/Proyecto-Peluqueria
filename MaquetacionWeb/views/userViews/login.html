@@ -8,36 +8,75 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="../../css/bootstrap.min.css" />
         <link rel="stylesheet" href="../../css/loginstyles.css" />
-
     </head>
     <body class="grid-container">
         <header class="header">
-            <h1>header</h1>
+            <h1>Iniciar Sesión</h1>
         </header>
         <aside class="aside">
-            <nav class="navbar">
-                <ul class="menuInicio">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                </ul>
-            </nav>
+            <div class="loginform">
+                <form action="">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"
+                            >Correo Electronico</label
+                        >
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="exampleInputEmail1"
+                            aria-describedby="emailHelp"
+                            placeholder="Enter email"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Contraseña</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="exampleInputPassword1"
+                            placeholder="Password"
+                        />
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Submit
+                    </button>
+                </form>
+            </div>
+
+            <div class="flex align-center">
+                <hr />
+                <span>O</span>
+                <hr />
+            </div>
+
+            <div class="flex flex-column justify-content-center">
+                <a href="#">
+                    <img src="#" alt="google" class="google" />
+                    <div>
+                        <span class="text-bold">Conectarse con Google</span>
+                    </div>
+                </a>
+            </div>
+            <hr />
+            <div class="margin-0">
+                <div class="flex flex-column align-center">
+                    <p class="label-v3 text-battleship-grey">
+                        no tienes una cuenta?
+                        <a href="#" class="label-1" data-no-instant="">
+                            Registrarse
+                        </a>
+                    </p>
+                </div>
+            </div>
         </aside>
         <main class="main">
-            <h1>Iniciar Sesion</h1>
-            <form action="">
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email" />
-                </div>
-                <div class="form-group">
-                    <label for="password">Contraseña</label>
-                    <input type="password" class="form-control" id="password" placeholder="Contraseña" />
-                </div>
-                <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
-            </form>
+            <h5>contenido</h5>
+            <h3>Imagen y Fondo</h3>
         </main>
-        <footer class="footer footer d-flex justify-content-center align-items-center">
-            <h3>footer</h3>
+        <footer
+            class="footer footer d-flex justify-content-center align-items-center text-secondary"
+        >
+            <h3>O...</h3>
         </footer>
     </body>
     <script src="../../javascript/bootstrap.bundle.js"></script>
