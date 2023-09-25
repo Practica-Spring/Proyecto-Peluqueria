@@ -1,0 +1,34 @@
+vistas a considerar:
+- vistas disponibles para el cliente visitante:
+    - vista principal (
+                        ofertas(?),
+                        "querés reservar un turno?",
+                        "querés crear una cuenta?",
+                        "quien soy(?)" + ubicacion del local,
+                        "Podes contactarme por...",
+                        "acerca de este sitio")
+    - formulario de login (opcion de login con cuenta google si es posible)
+        - recuperacion de cuenta... (investigar sistemas de recuperacion disponibles)
+    - formulario de registro (opcion de registro con cuenta google si es posible)
+    - perfil con servicios confirmados
+        - formulario de edicion de perfil
+        - edicion(cancelacion o reprogramacion) de servicios confirmados
+    - servicios disponibles
+        - horarios disponibles
+            - resumen de servicio y horario elegido
+                - pantalla de confirmacion
+- vistas disponibles para el usuario/operador:
+    - vista principal
+        - formulario login
+        - perfil con vista o acceso a:
+            - lista de clientes registrados
+            - servicios disponibles
+                - edicion de servicios disponibles
+            - turnos disponibles (agenda)
+                - edicion de turnos disponibles
+            - edicion de ofertas (?)
+- vistas disponibles para el administrador:
+    - lista de clientes registrados (crud)
+    - lista de servicios disponibles (crud)
+    - lista de turnos confirmados, finalizados, cancelados (resumen)
+    - vista de agenda
