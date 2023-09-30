@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mi Cuenta</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+    </head>
+
+    <body class="grid-container d-flex flex-column justify-content-center">
+        <div class="nav navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand nav-link active" href="#">Mi cuenta</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html"
+                            >Inicio</a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ver Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ver mis Turnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a
+                            class="nav-link btn btn-secondary btn-sm float-end"
+                            href="#"
+                            >Cerrar Sesion</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div
+            class="container card p-3 m-3 mb-5 rounded shadow border border-dark"
+        >
+            <span
+                class="label-v3 text-battleship-grey mb-3 d-flex flex-column justify-content-center align-items-center"
+                >Mis Datos</span
+            >
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <br />
+                    <label for="nombre">Nombre Random</label>
+                </li>
+                <li class="list-group-item">
+                    <label for="domicilio">Domicilio</label>
+                    <br />
+                    <label for="domicilio">Domicilio Random</label>
+                </li>
+                <li class="list-group-item">
+                    <label for="correo">Correo</label>
+                    <br />
+                    <label for="correo">Correo Random</label>
+                </li>
+                <li class="list-group-item">
+                    <label for="telefono">Telefono</label>
+                    <br />
+                    <label for="telefono">Telefono Random</label>
+                </li>
+                <li class="list-group-item">
+                    <a class="btn btn-primary float-end btn-sm" href="#"
+                        >Editar</a
+                    >
+                </li>
+            </ul>
+        </div>
+        <div
+            class="container card p-3 m-3 mb-5 rounded shadow border border-dark d-flex flex-column"
+        >
+            <h2>Mis Turnos</h2>
+            <table class="table table-hover table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Servicio</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">01/01/2020</th>
+                        <td>10:00</td>
+                        <td>Servicio 1</td>
+                        <td>Finalizado</td>
+                        <td>
+                            <a href="#" class="btn btn-danger btn-sm float-end"
+                                >Cancelar</a
+                            >
+                            <a href="#" class="btn btn-primary btn-sm float-end mx-2"
+                                >Reprogramar</a
+                            >
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
